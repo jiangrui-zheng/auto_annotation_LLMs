@@ -1,0 +1,126 @@
+Classify the sentence into one of the labels and response by label only:
+- label: filth
+- description: Dehumanizing speech: Filth (including but not limited to: dirt, grime)
+
+- label: violent speech
+- description: Violent speech or support in written or visual form
+
+- label: insects
+- description: Dehumanizing speech: Insects (including but not limited to: cockroaches, locusts)
+
+- label: bacteria
+- description: Dehumanizing speech: Bacteria, viruses, or microbes
+
+- label: disease
+- description: Dehumanizing speech: Disease (including but not limited to: cancer, sexually transmitted diseases)
+
+- label: dehumanization animal
+- description: Dehumanizing speech: Animals in general or specific types of animals that are culturally perceived as intellectually or physically inferior (including but not limited to: Black people and apes or ape-like
+
+- label: feces
+- description: Dehumanizing speech: Feces (including but not limited to: shit, crap)
+
+- label: sexual predator
+- description: Dehumanizing speech: Sexual predators (including but not limited to: Muslim people having sex with goats or pigs)
+
+- label: subhumanity
+- description: Dehumanizing speech: Subhumanity (including but not limited to: savages, devils, monsters, primitives)
+
+- label: criminal
+- description: Violent criminals (including but not limited to: terrorists, murderers, members of hate or criminal organizations)，Other criminals (including but not limited to “thieves,” “bank robbers,” or saying “All [protected characteristic or quasi-protected characteristic] are ‘criminals’”).
+
+- label: certain objects
+- description: Certain objects (women as household objects or property or objects in general; Black people as farm equipment; transgender or non-binary people as “it”)
+
+- label: deny existence
+- description: Statements denying existence (including but not limited to: "[protected characteristic(s) or quasi-protected characteristic] do not exist", "no such thing as [protected charactic(s) or quasi-protected characteristic]" ), deny existence is different from contempt-should-not-exist in tier 2
+
+- label: harmful stereotype
+- description: Harmful stereotypes historically linked to intimidation, exclusion, or violence on the basis of a protected characteristic, such as Blackface; Holocaust denial; claims that Jewish people control financial, political, or media institutions; and references to Dalits as menial laborers
+
+- label: hatecrime victim
+- description: Mocking the concept, events or victims of hate crimes even if no real person is depicted in an image.
+
+- label: attacking hygiene
+- description: Content attacking a person or a group based on their hygiene, including but not limited to: filthy, dirty, smelly.
+
+- label: attacking appearance
+- description: Content attacking a person or a group based on their physical appearance, including but not limited to: ugly, hideous.
+
+- label: attacking intellectual capability
+- description: Content attacking a person or a group based on their intellectual capacity, including but not limited to: dumb, stupid, idiots.
+
+- label: attacking education
+- description: Content attacking a person or a group based on their education, including but not limited to: illiterate, uneducated.
+
+- label: attacking mental health
+- description: Content attacking a person or a group based on their mental health, including but not limited to: mentally ill, retarded, crazy, insane.
+
+- label: attacking character trait
+- description: Attacking a person or group based on a perceived character trait , Content attacking a person or a group based on their character traits culturally perceived as negative, including but not limited to: coward, liar, arrogant, ignorant.
+
+- label: attacking derogatory term
+- description: Content attacking a person or a group based on derogatory terms related to sexual activity, including but not limited to: whore, slut, perverts.
+
+- label: less than adequate
+- description: Expressions about being less than adequate, including but not limited to: worthless, useless
+
+- label: deviating norm
+- description: Expressions about deviating from the norm, including but not limited to: freaks, abnormal.
+
+- label: better worse than
+- description: Expressions about being better/worse than another protected characteristic, including but not limited to: "I believe that males are superior to females."
+
+- label: contempt self admission intolerance
+- description: Self-admission to intolerance on the basis of a protected characteristics, including but not limited to: homophobic, islamophobic, racist.
+
+- label: contempt shouldnt exist
+- description: Expressions that a protected characteristic shouldn't exist. (shouldn't exist is different from deny-existence in tier 1)
+
+- label: contempt despise hate
+- description: Expressions of hate, including but not limited to: despise, hate.
+
+- label: contempt despise dislike
+- description: Expressions of dismissal, including but not limited to: don´t respect, don't like, don´t care for
+
+- label: curse sexual
+- description: Terms or phrases calling for engagement in sexual activity, or contact with genitalia, anus, feces or urine, including but not limited to: suck my dick, kiss my ass, eat shit.
+
+- label: disgust vomit
+- description: Expressions that suggest the target causes sickness, including but not limited to: vomit, throw up.
+
+- label: disgust repulsion
+- description: Expressions of repulsion or distaste, including but not limited to: vile, disgusting, yuck.
+
+- label: curse genitalia
+- description: Curse that referring to the target as genitalia or anus, including but not limited to: cunt, dick, asshole.
+
+- label: curse profane
+- description: Profane terms or phrases with the intent to insult, including but not limited to: fuck, bitch, motherfucker.
+
+- label: segregation
+- description: Segregation in the form of calls for action, statements of intent, aspirational or conditional statements, or statements advocating or supporting segregation.
+
+- label: explicit exclusion
+- description: Call for action of exclusion, e.g., explicit exclusion, which means things like expelling certain groups or saying they are not allowed.
+
+- label: political exclusion
+- description: Call for action of exclusion, e.g., political exclusion, which means denying the right to political participation.
+
+- label: economic exclusion
+- description: Call for action of exclusion, e.g., economic exclusion, which means denying access to economic entitlements and limiting participation in the labour market.
+
+- label: social exclusion
+- description: Call for action of exclusion, e.g., social exclusion, which means things like denying access to spaces (physical and online)and social services, except for gender-based exclusion in health and positive support Groups.
+
+- label: change sexual
+- description: Content explicitly providing or offering to provide products or services that aim to change people’s sexual orientation or gender identity.
+
+- label: attack concept associated protected characteristics
+- description: Content attacking concepts, institutions, ideas, practices, or beliefs associated with protected characteristics, which are likely to contribute to imminent physical harm, intimidation or discrimination against the people associated with that protected characteristic.
+
+- label: spread virus
+- description: Content targeting a person or group of people on the basis of their protected characteristic(s) with claims that they have or spread the novel coronavirus, are responsible for the existence of the novel coronavirus, are deliberately spreading the novel coronavirus, or mocking them for having or experiencing the novel coronavirus.
+
+- label: Non-hate
+- description: Other sentences that does not match any of the provided labels.

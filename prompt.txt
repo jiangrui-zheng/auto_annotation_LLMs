@@ -1,0 +1,209 @@
+Classify the sentence of Question into one of the 41 labels and response by index only:
+- index: 0
+- label: filth
+- description: Dehumanizing speech: Filth (including but not limited to: dirt, grime)
+- examples: wommennnnnn are dirt\ntrans people are filth! look in the mirror!
+
+- index: 1
+- label: violent speech
+- description: Violent speech or support in written or visual form
+- examples: Honestly, all that foreigners deserve is to be beaten up\nTraaaaans should be killed\ni want to kill all bl@cks
+
+- index: 2
+- label: insects
+- description: Dehumanizing speech: Insects (including but not limited to: cockroaches, locusts)
+- examples: Liberals are aids infested cockroaches\nRefugees', 'asylum seekers' or simply 'parasites': unsustainable 700 per cent rise in migrants"??.
+
+- index: 3
+- label: bacteria
+- description: Dehumanizing speech: Bacteria, viruses, or microbes
+- examples: muslims are a virus\nthe virus is everywhere: it's the gays
+
+- index: 4
+- label: disease
+- description: Dehumanizing speech: Disease (including but not limited to: cancer, sexually transmitted diseases)
+- examples: jews are cancer\nThe cancer of foreigners is spreading
+
+- index: 5
+- label: dehumanization animal
+- description: Dehumanizing speech: Animals in general or specific types of animals that are culturally perceived as intellectually or physically inferior (including but not limited to: Black people and apes or ape-like
+- examples: niggers belong in the wild with the other apes\nthose black men look alike this black duck
+
+- index: 6
+- label: feces
+- description: Dehumanizing speech: Feces (including but not limited to: shit, crap)
+- examples: women are fucking batshit. this is shit!\nbalck is nothing but crap
+
+- index: 7
+- label: sexual predator
+- description: Dehumanizing speech: Sexual predators (including but not limited to: Muslim people having sex with goats or pigs)
+- examples: Immigrants have a culture of rape\ngays rape kids\nblack men are rapists
+
+- index: 8
+- label: subhumanity
+- description: Dehumanizing speech: Subhumanity (including but not limited to: savages, devils, monsters, primitives)
+- examples: you're a monster! Like all them niiqqabbiss\nAll women are a monsters and should be killed
+
+- index: 9
+- label: criminal
+- description: Violent criminals (including but not limited to: terrorists, murderers, members of hate or criminal organizations)，Other criminals (including but not limited to “thieves,” “bank robbers,” or saying “All [protected characteristic or quasi-protected characteristic] are ‘criminals’”).
+- examples: masks are for terrorists. masks are for Arabs\nMuslims like terrorists
+
+- index: 10
+- label: certain objects
+- description: Certain objects (women as household objects or property or objects in general; Black people as farm equipment; transgender or non-binary people as “it”)
+- examples: Women are the property of men\nBlacks are the property of whites
+
+- index: 11
+- label: deny existence
+- description: Statements denying existence (including but not limited to: "[protected characteristic(s) or quasi-protected characteristic] do not exist", "no such thing as [protected charactic(s) or quasi-protected characteristic]" ), deny existence is different from contempt-should-not-exist in tier 2
+- examples: Transgender is not real. It's a myth.\nSorry trans people, there's no such thing as a lesbian with a penis!
+
+- index: 12
+- label: harmful stereotype
+- description: Harmful stereotypes historically linked to intimidation, exclusion, or violence on the basis of a protected characteristic, such as Blackface; Holocaust denial; claims that Jewish people control financial, political, or media institutions; and references to Dalits as menial laborers
+- examples: idk about you but I believe jews are controlling us\nPeople should wear blackface to make fun of black people.
+
+- index: 13
+- label: hatecrime victim
+- description: Mocking the concept, events or victims of hate crimes even if no real person is depicted in an image.
+- examples: Native Americans deserved all the treatment they got from us when we founded america, nothing but backward.\nWe applaud the murder of muslims
+
+- index: 14
+- label: attacking hygiene
+- description: Content attacking a person or a group based on their hygiene, including but not limited to: filthy, dirty, smelly.
+- examples: those curry boys are filthy pigs, so gross\nUyghurs are smelly
+
+- index: 15
+- label: attacking appearance
+- description: Content attacking a person or a group based on their physical appearance, including but not limited to: ugly, hideous.
+- examples: Your son is an ugly halfcaste\ni hate all types of asian women they're all ugly
+
+- index: 16
+- label: attacking intellectual capability
+- description: Content attacking a person or a group based on their intellectual capacity, including but not limited to: dumb, stupid, idiots.
+- examples: Arabs are dumb\nJews are fucking morons!\nYou fool, you absolute bufoon, you activated my chinky card
+
+- index: 17
+- label: attacking education
+- description: Content attacking a person or a group based on their education, including but not limited to: illiterate, uneducated.
+- examples: pakkis are not smart and can not join university\nHe's uneducated like most Irish travellers
+
+- index: 18
+- label: attacking mental health
+- description: Content attacking a person or a group based on their mental health, including but not limited to: mentally ill, retarded, crazy, insane.
+- examples: Im afraid Trans are definitely mentally ill\nWomen are insane
+
+- index: 19
+- label: attacking character trait
+- description: Attacking a person or group based on a perceived character trait , Content attacking a person or a group based on their character traits culturally perceived as negative, including but not limited to: coward, liar, arrogant, ignorant.
+- examples: he is greedy as are many jews\ndo not worry, the Black man is a coward\nAll female are liars
+
+- index: 20
+- label: attacking derogatory term
+- description: Content attacking a person or a group based on derogatory terms related to sexual activity, including but not limited to: whore, slut, perverts.
+- examples: tell women to stop dressing like whores\ngirls, girls, girls. More like whores, bitches, sluts.
+
+- index: 21
+- label: less than adequate
+- description: Expressions about being less than adequate, including but not limited to: worthless, useless
+- examples: Women really are fucking useless aren't they\nCongratulations to everyone turning over 60 years old today. Youre officially useless now
+
+- index: 22
+- label: deviating norm
+- description: Expressions about deviating from the norm, including but not limited to: freaks, abnormal.
+- examples: Disability is abnormal\nstay away from me you sick gay freak
+
+- index: 23
+- label: better worse than
+- description: Expressions about being better/worse than another protected characteristic, including but not limited to: "I believe that males are superior to females."
+- examples: Indians are no better than dogs\nwhite people are superior to black people
+
+- index: 24
+- label: contempt self admission intolerance
+- description: Self-admission to intolerance on the basis of a protected characteristics, including but not limited to: homophobic, islamophobic, racist.
+- examples: I have to admit that I'm racist. I'm uncomfortable around people of color and I worry about their presence in my community.\nI agree totally. l've now been upgraded to a homophobic demon.!! they just don't see how ridiculous they are.
+
+- index: 25
+- label: contempt shouldnt exist
+- description: Expressions that a protected characteristic shouldn't exist. (shouldn't exist is different from deny-existence in tier 1)
+- examples: down with gay people's existence\nI don't agree with the existence of moths, should exterminate all of them just like women
+
+- index: 26
+- label: contempt despise hate
+- description: Expressions of hate, including but not limited to: despise, hate.
+- examples: i hate fags they make me sick\nI really hate that vomitive lesbo, it makes me cringe so much
+
+- index: 27
+- label: contempt despise dislike
+- description: Expressions of dismissal, including but not limited to: don´t respect, don't like, don´t care for
+- examples: I don't care if rapefugees become homeless\nwe don't like you so just leave us alone and go talk to your imaginary friend muhammad
+
+- index: 28
+- label: curse sexual
+- description: Terms or phrases calling for engagement in sexual activity, or contact with genitalia, anus, feces or urine, including but not limited to: suck my dick, kiss my ass, eat shit.
+- examples: Kiss my ass NIGGER\nwomen can suck my dick
+
+- index: 29
+- label: disgust vomit
+- description: Expressions that suggest the target causes sickness, including but not limited to: vomit, throw up.
+- examples: The number of chinese here makes me want to vomit\nThe level of immigration around here is sickening!
+
+- index: 30
+- label: disgust repulsion
+- description: Expressions of repulsion or distaste, including but not limited to: vile, disgusting, yuck.
+- examples: That scumbag is so vile and gross, he must be a gypsy\ncause he's african, your friend is absolutely disgusting
+
+- index: 31
+- label: curse genitalia
+- description: Curse that referring to the target as genitalia or anus, including but not limited to: cunt, dick, asshole.
+- examples: why is every muslim a cunt\nJewboy seems like a bit of a cunt
+
+- index: 32
+- label: curse profane
+- description: Profane terms or phrases with the intent to insult, including but not limited to: fuck, bitch, motherfucker.
+- examples: pride flags are fucking trashy, just like the gays!\nfucking had enough of fucking gays
+
+- index: 33
+- label: segregation
+- description: Segregation in the form of calls for action, statements of intent, aspirational or conditional statements, or statements advocating or supporting segregation.
+- examples: The world would be a much better place with racial segregation - no need to mix whites with anyone\nI love reading about apartheid, I wish it took place now!
+
+- index: 34
+- label: explicit exclusion
+- description: Call for action of exclusion, e.g., explicit exclusion, which means things like expelling certain groups or saying they are not allowed.
+- examples: Gays shouldn't be allowed at church\nRefugees are dangerous and should be banned from entering.
+
+- index: 35
+- label: political exclusion
+- description: Call for action of exclusion, e.g., political exclusion, which means denying the right to political participation.
+- examples: women should not be allowed to express political views\nVote to deny citizenship to all immigrants
+
+- index: 36
+- label: economic exclusion
+- description: Call for action of exclusion, e.g., economic exclusion, which means denying access to economic entitlements and limiting participation in the labour market.
+- examples: God wanted women to have children, not work outside the home\nWe should not employ people from certain backgrounds, like immigrants, as they are not capable of the same standards
+
+- index: 37
+- label: social exclusion
+- description: Call for action of exclusion, e.g., social exclusion, which means things like denying access to spaces (physical and online)and social services, except for gender-based exclusion in health and positive support Groups.
+- examples: No homos at church\nwomen shouldn't be allowed to drive\nhomos shouldn't be allowed to adopt
+
+- index: 38
+- label: change sexual
+- description: Content explicitly providing or offering to provide products or services that aim to change people’s sexual orientation or gender identity.
+- examples: Being gay can be cured with a course of electric shock therapy\nGet our exclusive therapy package and cure your homosexuality.
+
+- index: 39
+- label: attack concept associated protected characteristics
+- description: Content attacking concepts, institutions, ideas, practices, or beliefs associated with protected characteristics, which are likely to contribute to imminent physical harm, intimidation or discrimination against the people associated with that protected characteristic.
+- examples: I venerate attacks on Muslims\nPeople who belong to certain political ideologies are enemies of the state and should be eliminated.
+
+- index: 40
+- label: spread virus
+- description: Content targeting a person or group of people on the basis of their protected characteristic(s) with claims that they have or spread the novel coronavirus, are responsible for the existence of the novel coronavirus, are deliberately spreading the novel coronavirus, or mocking them for having or experiencing the novel coronavirus.
+- examples: Chinese virus then defective masks fuck china\n@wolfcat Chink! Coronavirus speader!
+
+- index: 41
+- label: Non-hate
+- description: Other sentences that does not match any of the provided labels.
